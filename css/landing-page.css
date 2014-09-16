@@ -27,12 +27,13 @@ h6 {
 }
 
 .intro-header {
-    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    position: relative;
+    top: 50px;
+    padding-top: 50px;
     padding-bottom: 50px;
     text-align: center;
-    /*color: #f8f8f8;*/
     color: #0099CC;
-    background: url(../img/intro-bg.jpg) no-repeat center center;
+    background: url(../img/kalien-big.png) no-repeat top center;
     background-size: cover;
 }
 
@@ -133,96 +134,6 @@ h6 {
     margin-top: 0;
 }
 
-.benefits {
-  margin-bottom: 3em;
-}
-
-.benefit {
-  margin: 1em 0;
-  text-align: center;
-}
-
-.benefit .benefit-ball {
-  background: #f0f0f0;
-  border-radius: 50%;
-  color: #333;
-  display: inline-block;
-  line-height: 1em;
-  padding: 3em;
-}
-
-.benefit .benefit-ball .glyphicon {
-  font-size: 3em;
-  position: relative;
-  top: -3px;
-  right: 1px;
-  /*vertical-align: middle;*/
-}
-
-.benefit h3 {
-  font-size: 1.5em;
-}
-
-.mycol {
-    margin-bottom: -99999px;
-    padding-bottom: -99999px;
-    background-color: #ffc;
-}
-
-.mycolwrap {
-    overflow: hidden;
-}
-
-.takeupspace {
-    height: 100%;
-}
-
-.centered {
-    float: none;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
-
-/*.benefit-ball {
-  background: #f0f0f0;
-  border-radius: 50%;
-  color: #333;
-  display: inline-block;
-  line-height: 1em;
-  padding: 3em;
-  margin: 1em 0;
-  text-align: center;
-  border: 1px solid #000;
-}*/
-
-/* benefit ball */
-/*.benefit {
-  margin: 1em 0;
-  text-align: center;
-}
-
-.benefit .benefit-ball {
-  background: #f0f0f0;
-  border-radius: 50%;
-  color: #333;
-  display: inline-block;
-  line-height: 1em;
-  padding: 3em;
-}
-
-.benefit .benefit-ball .glyphicon {
-  font-size: 3em;
-  position: relative;
-  top: -3px;
-  right: 1px;
-}
-
-.benefit h3 {
-  font-size: 1.5em;
-}*/
-/* benefit ball */
-
 @media(max-width:1199px) {
     ul.banner-social-buttons {
         float: left;
@@ -253,6 +164,17 @@ footer {
     background-color: #f8f8f8;
 }
 
+.centered {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
 p.copyright {
     margin: 15px 0 0;
+}
+
+a.pull-left {
+  float: left;
 }
