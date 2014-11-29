@@ -1,0 +1,7 @@
+.build-exclude
+.git
+.gitignore
+.gitattributes
+.DS_Store
+readme.md
+phpunit.xml
