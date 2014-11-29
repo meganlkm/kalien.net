@@ -11,3 +11,8 @@ main-app/app/storage/logs/*
 main-app/app/storage/meta/*
 main-app/app/storage/sessions/*
 main-app/app/storage/views/*
+app/storage/cache/*
+app/storage/logs/*
+app/storage/meta/*
+app/storage/sessions/*
+app/storage/views/*
