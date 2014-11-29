@@ -3,5 +3,11 @@
 .gitignore
 .gitattributes
 .DS_Store
+deploy.sh
 readme.md
 phpunit.xml
+main-app/app/storage/cache/*
+main-app/app/storage/logs/*
+main-app/app/storage/meta/*
+main-app/app/storage/sessions/*
+main-app/app/storage/views/*
