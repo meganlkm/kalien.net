@@ -1,3 +1,5 @@
+*.py
+*.pyc
 .build-exclude
 .git
 .gitignore
@@ -6,6 +8,7 @@
 deploy.sh
 readme.md
 phpunit.xml
+backups
 main-app/app/storage/cache/*
 main-app/app/storage/logs/*
 main-app/app/storage/meta/*
